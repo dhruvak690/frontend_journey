@@ -1,42 +1,10 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 
-const parent = React.createElement(
-    "div",
-    {id:"parent"},
-    [React.createElement(
-        "div",
-        {id:"child"},
-        [React.createElement(
-            "h1",
-            {},
-            "i am a big tag",
-        ),React.createElement(
-            "h2",
-            {},
-            "i am a small tag",
-        )]
-    ),React.createElement(
-        "div",
-        {id:"child2"},
-        [React.createElement(
-            "h1",
-            {},
-            "i am a big tag",
-        ),React.createElement(
-            "h2",
-            {},
-            "i am a small tag",
-        )]
-    ),]
-    )
+//const heading = React.createElement("h1",{id:"heading"},"first step");
 
-
-
-
-
-console.log(parent);
+const jsxheading = (<h1 className="head" tabIndex="5">First Step</h1>);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(jsxheading);
