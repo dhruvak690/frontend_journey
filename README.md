@@ -10,3 +10,6 @@
  -minification
  -bundling
  -compressing
+
+ # UI MICROSERVICE
+ -written in ReactJs
